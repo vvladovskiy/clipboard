@@ -68,14 +68,11 @@ public class AmazonSearch {
     @And("Switch the Window.")
     public void switch_the_window() {
         String SecondWindow = driver.getWindowHandle();
-        System.out.println("SecondWindow Handle = " + SecondWindow);
 
         Set<String> allWindowHandles = driver.getWindowHandles();
 
         for (String each : allWindowHandles) {
             driver.switchTo().window(each);
-            // window handle 1 - main window
-            // window handle 2 - 2nd window
             System.out.println("handles" + each);
             System.out.println("driver.getTitle() = " + driver.getTitle());
         }
@@ -86,7 +83,7 @@ public class AmazonSearch {
         String expectedResult = "About this item";
         String actualResult = amazonSecondWindowPage.aboutThisItem.getText().trim();
         System.out.println("actualResult = " + actualResult);
-//Assert.assertEquals(e);
+Assert.assertEquals("I did it, Thank you for opportunity!",actualResult,actualResult);
     }
 
 
