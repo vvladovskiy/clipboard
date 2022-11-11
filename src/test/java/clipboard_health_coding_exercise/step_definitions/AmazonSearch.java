@@ -84,6 +84,16 @@ public class AmazonSearch {
         String actualResult = amazonSecondWindowPage.aboutThisItem.getText().trim();
         System.out.println("actualResult = " + actualResult);
 Assert.assertEquals("I did it, Thank you for opportunity!",actualResult,actualResult);
+
+        System.out.println(amazonSecondWindowPage.text01.getText());
+        System.out.println(amazonSecondWindowPage.text02.getText());
+        System.out.println(amazonSecondWindowPage.text03.getText());
+        System.out.println(amazonSecondWindowPage.text04.getText());
+        System.out.println(amazonSecondWindowPage.text05.getText());
+        System.out.println(amazonSecondWindowPage.text06.getText());
+        System.out.println(amazonSecondWindowPage.text07.getText());
+        System.out.println(amazonSecondWindowPage.text08.getText());
+
     }
 
 
