@@ -30,3 +30,23 @@ Note: Clicking on above URL may redirect you to amazon.com. Change it to amazon.
 9. Assert that “About this item” section is present and log this section text to console/report.
 
 ![](/Users/benney/Downloads/about-this-item.png)
+
+
+Hi Victor Wladowski,
+
+Thanks for taking out time to complete the assessment.
+
+Unfortunately, we have decided not to proceed with your candidacy for the Senior QA & Automation Engineer opening at Clipboard Health. Following is the feedback received for your test submission.
+
+- Poor framework structuring, everything in test package
+- Dummy main.java file with irrelevant method
+- Excessive usage of print statements
+- intellij idea folder pushed to repo
+- Poor naming conventions for variables and elements
+
+We know the test took time and we greatly appreciate you taking the time to put the thought and effort into the assessment, but at this time do not think we are a mutual fit.
+
+Thanks again for your interest in Clipboard Health and we wish you the best of luck.
+
+Best,
+Yash
