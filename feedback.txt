@@ -8,7 +8,7 @@ Unfortunately, we have decided not to proceed with your candidacy for the Senior
 ++ - Dummy main.java file with irrelevant method (removed "Hello Word!")
 ++ - Excessive usage of print statements
 ++ - intellij idea folder pushed to repo (.gitignore edited)
-- Poor naming conventions for variables and elements
+++ - Poor naming conventions for variables and elements
 
 We know the test took time and we greatly appreciate you taking the time to put the thought and effort into the assessment, but at this time do not think we are a mutual fit.
 

@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 public class AmazonSecondWindowPage extends BasePage {
 
     @FindBy(xpath = "//h1[.=' About this item ']")
-    public WebElement aboutThisItem;
+    public WebElement aboutThisItemSection;
 
     @FindBy(xpath = "//*[.=' Resolution : 4K Ultra HD (3840 x 2160) Resolution || Refresh Rate : 100 Hertz  ']")
     public WebElement text01;

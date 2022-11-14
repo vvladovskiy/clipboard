@@ -6,15 +6,15 @@ import org.openqa.selenium.support.FindBy;
 public class AmazonHomePage extends BasePage {
 
     @FindBy(xpath = "//*[@id='nav-hamburger-menu']")
-    public WebElement hamburgerMenu;
+    public WebElement hamburgerMenuField;
 
 
     @FindBy(xpath = "//div[.='TV, Appliances, Electronics']/..")
-    public WebElement tvAppliancesElectronicsLink;
+    public WebElement tvAppliancesElectronicsMenuLink;
 
 
     @FindBy(xpath = "//a[.='Televisions']")
-    public WebElement televisionsLink;
+    public WebElement televisionsMenuLink;
 
 
 }
