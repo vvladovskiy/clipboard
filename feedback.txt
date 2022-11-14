@@ -6,7 +6,7 @@ Unfortunately, we have decided not to proceed with your candidacy for the Senior
 
 ?? - Poor framework structuring, everything in test package
 ++ - Dummy main.java file with irrelevant method (removed "Hello Word!")
-- Excessive usage of print statements
+++ - Excessive usage of print statements
 ++ - intellij idea folder pushed to repo (.gitignore edited)
 - Poor naming conventions for variables and elements
 

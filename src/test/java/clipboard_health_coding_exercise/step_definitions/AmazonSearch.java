@@ -88,15 +88,5 @@ public class AmazonSearch {
 
         System.out.println(amazonSecondWindowPage.text01.getText()+"\n"+amazonSecondWindowPage.text02.getText()+"\n"+amazonSecondWindowPage.text03.getText()+"\n"+amazonSecondWindowPage.text04.getText()+"\n"+amazonSecondWindowPage.text05.getText()+"\n"+amazonSecondWindowPage.text06.getText()+"\n"+amazonSecondWindowPage.text07.getText()+"\n"+amazonSecondWindowPage.text08.getText());
 
-
-//        System.out.println(amazonSecondWindowPage.text01.getText());
-//        System.out.println(amazonSecondWindowPage.text02.getText());
-//        System.out.println(amazonSecondWindowPage.text03.getText());
-//        System.out.println(amazonSecondWindowPage.text04.getText());
-//        System.out.println(amazonSecondWindowPage.text05.getText());
-//        System.out.println(amazonSecondWindowPage.text06.getText());
-//        System.out.println(amazonSecondWindowPage.text07.getText());
-//        System.out.println(amazonSecondWindowPage.text08.getText());
-
     }
 }
