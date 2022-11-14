@@ -83,19 +83,20 @@ public class AmazonSearch {
 
     @Then("Assert that “About this item” section is present and log this section text to console report.")
     public void assert_that_about_this_item_section_is_present_and_log_this_section_text_to_console_report() {
-        String expectedResult = "About this item";
-        String actualResult = amazonSecondWindowPage.aboutThisItem.getText().trim();
-        System.out.println("actualResult = " + actualResult);
-        Assert.assertEquals("I did it, Thank you for opportunity!", expectedResult, actualResult);
 
-        System.out.println(amazonSecondWindowPage.text01.getText());
-        System.out.println(amazonSecondWindowPage.text02.getText());
-        System.out.println(amazonSecondWindowPage.text03.getText());
-        System.out.println(amazonSecondWindowPage.text04.getText());
-        System.out.println(amazonSecondWindowPage.text05.getText());
-        System.out.println(amazonSecondWindowPage.text06.getText());
-        System.out.println(amazonSecondWindowPage.text07.getText());
-        System.out.println(amazonSecondWindowPage.text08.getText());
+        Assert.assertEquals("About this item", amazonSecondWindowPage.aboutThisItem.getText().trim());
+
+        System.out.println(amazonSecondWindowPage.text01.getText()+"\n"+amazonSecondWindowPage.text02.getText()+"\n"+amazonSecondWindowPage.text03.getText()+"\n"+amazonSecondWindowPage.text04.getText()+"\n"+amazonSecondWindowPage.text05.getText()+"\n"+amazonSecondWindowPage.text06.getText()+"\n"+amazonSecondWindowPage.text07.getText()+"\n"+amazonSecondWindowPage.text08.getText());
+
+
+//        System.out.println(amazonSecondWindowPage.text01.getText());
+//        System.out.println(amazonSecondWindowPage.text02.getText());
+//        System.out.println(amazonSecondWindowPage.text03.getText());
+//        System.out.println(amazonSecondWindowPage.text04.getText());
+//        System.out.println(amazonSecondWindowPage.text05.getText());
+//        System.out.println(amazonSecondWindowPage.text06.getText());
+//        System.out.println(amazonSecondWindowPage.text07.getText());
+//        System.out.println(amazonSecondWindowPage.text08.getText());
 
     }
 }
